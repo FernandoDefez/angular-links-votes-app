@@ -1,0 +1,14 @@
+<div class="col-md-4 offset-md-4 mb-5">
+    <div class="card text-center">
+        <div class="card-header">
+            <a href="{{link.link}}" target="_blank">{{link.title}}</a>
+        </div>
+        <div class="card-body">
+            <h1>{{link.votes}}</h1>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary mr-3"  (click)="link.increaseVote()">Vote Up</button>
+            <button class="btn btn-danger" (click)="link.decreaseVote()">Vote Down</button>
+        </div>
+    </div>
+</div>
