@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
+![](https://github.com/FernandoDefez/angular-links-votes-app/blob/master/Captura%20de%20pantalla_2020-01-04_19-05-30.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
