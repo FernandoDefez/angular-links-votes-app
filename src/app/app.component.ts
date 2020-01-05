@@ -22,7 +22,7 @@ export class AppComponent {
   addLink(title: HTMLInputElement, link: HTMLInputElement){
     this.links.push(new Link(title.value, link.value)); //The push method is for add a new object
     
-    //Clean inputs fields
+    //Clean input fields
     title.value=""; 
     link.value="";
     return false; //Cancel the refresh page
